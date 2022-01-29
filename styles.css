@@ -1,0 +1,28 @@
+.site {
+    display: flex;
+    flex-direction: column;
+}
+.mainImg {
+    align-self: center;
+}
+.mainImg img {
+    padding: 14px;
+    border: 1px solid #ccc;
+}
+.site__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    align-self: center;
+
+}
+.site__container img{
+    padding: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.site__container img:hover {
+    border: 1px solid yellow;
+}
